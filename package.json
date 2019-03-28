@@ -5,7 +5,8 @@
   "author": "Gabriel Samaniego <selfdev.gs@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "server": "nodemon"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "dependencies": {
     "express": "^4.16.4",
