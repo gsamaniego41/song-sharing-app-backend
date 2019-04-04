@@ -9,6 +9,7 @@ exports.up = function(knex, Promise) {
       .string("email")
       .notNullable()
       .unique();
+    tbl.string("password").notNullable();
   });
 };
 
