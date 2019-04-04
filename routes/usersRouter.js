@@ -25,4 +25,7 @@ router.get("/:id", (req, res) => {
     .catch(err => res.status(500).json(err));
 });
 
+// PUT
+// DELETE
+
 module.exports = router;
